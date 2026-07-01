@@ -3,6 +3,7 @@
 ```yaml
 feature: # feature name
 dd_link: # link to the Detailed Design doc, if one exists
+figma_link: # link to the Figma file/frame(s) for this feature's UI, if any — required before proposing screens for a UI-facing feature
 author: # rn-architect / human author
 status: proposed # proposed | approved
 date: # YYYY-MM-DD

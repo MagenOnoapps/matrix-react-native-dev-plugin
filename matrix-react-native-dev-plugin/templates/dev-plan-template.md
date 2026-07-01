@@ -3,6 +3,7 @@
 ```yaml
 feature: # feature name
 dd_link: # link to the Detailed Design doc, if one exists
+figma_link: # carried over from templates/feature-analysis-template.md
 author: # rn-architect / human author
 status: draft # draft | approved
 date: # YYYY-MM-DD
