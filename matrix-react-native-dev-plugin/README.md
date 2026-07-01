@@ -9,7 +9,7 @@ Claude Code plugin encoding Ono Apps' React Native SDLC workflow.
 | 1. Analyze | `/analyze-feature` | `rn-repo-analysis` | `repo-analyst`, `rn-architect` |
 | 2. Plan | `/create-dev-plan` | `rn-dev-planning` | `rn-architect` |
 | 3. Implement | `/implement-task` | `rn-feature-implementation` | `rn-feature-developer` |
-| 4. Review | `/review-code` | `rn-code-review` | `rn-code-reviewer`, `rn-performance-reviewer` |
+| 4. Review | `/review-code`, `/review-security` | `rn-code-review`, `rn-security-review` | `rn-code-reviewer`, `rn-performance-reviewer`, `rn-security-reviewer` |
 | 5. Fix | `/fix-review-comments` | `rn-debugging` | `rn-debugger`, `rn-feature-developer` |
 | 6. QA handoff | `/create-dev-qa-notes` | `rn-testing-and-qa-handoff` | `rn-feature-developer` |
 | 7. Release | `/prepare-mobile-release` | `rn-release-readiness` | `rn-release-engineer`, `rn-performance-reviewer` |
