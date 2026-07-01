@@ -18,6 +18,10 @@ Claude Code plugin encoding Ono Apps' React Native SDLC workflow.
 
 Each stage after Analyze reads its input from the previous stage's approved template output: `/analyze-feature` → `feature-analysis-template.md` (status: proposed → approved) → `/create-dev-plan` → `dev-plan-template.md` + `task-breakdown-template.md` → `/implement-task` → ... → `/prepare-mobile-release`.
 
+## MCP servers
+
+- `figma` (`https://mcp.figma.com/mcp`) — the hosted Figma MCP server, for pulling design context/screenshots/variables when analyzing or implementing a feature from a Figma file. Each developer authenticates once via OAuth on first use (`/mcp` to check connection status).
+
 ## Status
 
 Complete. All standards, templates, agents, skills, commands, and hooks have real content.
