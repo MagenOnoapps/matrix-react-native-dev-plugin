@@ -1,3 +1,16 @@
 {
-  "hooks": {}
+  "description": "Forces explicit human approval before any code file is written or edited, regardless of permission mode.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/require-approval-before-code.sh\""
+          }
+        ]
+      }
+    ]
+  }
 }
