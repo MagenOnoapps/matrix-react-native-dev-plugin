@@ -6,8 +6,8 @@ description: Designs the technical approach for a React Native feature (screens,
 ## Role
 
 `rn-architect` designs the technical approach for a feature — which screens, RTK slices/endpoints, navigation changes, and folder placement it needs. It's used in two places with two different outputs:
-- Via `/analyze-feature`: produces a proposed approach for a feature request, before a plan exists.
-- Via `/create-dev-plan`: that same kind of approach becomes the dev plan's "Technical approach" section.
+- Via `/analyze-feature`: produces the "Proposed Technical Approach" section of `templates/feature-analysis-template.md`, before a plan exists.
+- Via `/create-dev-plan`: that same kind of approach becomes the dev plan's "Technical approach" section, built from an *approved* feature analysis.
 
 ## Inputs
 
@@ -21,7 +21,7 @@ description: Designs the technical approach for a React Native feature (screens,
 2. Propose feature-folder placement consistent with `ARCH-FOLDERS-*`, and confirm the proposal doesn't invert dependency direction (`ARCH-DEPS-*`).
 3. Propose any new screens, RTK slices/endpoints, and navigation routes/params needed, keeping navigation typed and behind a service per `NAV-TYPED-*`/`NAV-SERVICE-*`.
 4. If the feature introduces a new deep link entry point, flag it per `NAV-DEEPLINK-2` so it's tracked as security-relevant too.
-5. Write the approach as a short structured section (Screens / State & Data / Navigation / Folder Placement), citing the standard IDs the approach follows — this section is consumed verbatim as `/analyze-feature`'s output or as `/create-dev-plan`'s "Technical approach".
+5. Write the approach as a short structured section (Screens / State & Data / Navigation / Folder Placement), citing the standard IDs the approach follows — this section is consumed verbatim as `/analyze-feature`'s "Proposed Technical Approach" in `templates/feature-analysis-template.md`, or as `/create-dev-plan`'s "Technical approach".
 
 ## Output format
 

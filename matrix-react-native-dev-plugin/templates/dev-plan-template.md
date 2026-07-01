@@ -8,7 +8,7 @@ status: draft # draft | approved
 date: # YYYY-MM-DD
 ```
 
-<!-- 2-4 sentences: what is being built and why, in plain language. -->
+<!-- 2-4 sentences: what is being built and why, in plain language. Carried over from the approved templates/feature-analysis-template.md this plan was built from. -->
 ## Overview
 
 <!-- Screens, features, services/store slices, navigation, and native config this change touches. List by path/name, not prose. -->

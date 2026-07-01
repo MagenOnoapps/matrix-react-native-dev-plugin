@@ -16,6 +16,8 @@ Claude Code plugin encoding Ono Apps' React Native SDLC workflow.
 
 `repo-analyst` has no dedicated command — it's invoked by other agents/skills as a first step.
 
+Each stage after Analyze reads its input from the previous stage's approved template output: `/analyze-feature` → `feature-analysis-template.md` (status: proposed → approved) → `/create-dev-plan` → `dev-plan-template.md` + `task-breakdown-template.md` → `/implement-task` → ... → `/prepare-mobile-release`.
+
 ## Status
 
 Complete. All standards, templates, agents, skills, commands, and hooks have real content.

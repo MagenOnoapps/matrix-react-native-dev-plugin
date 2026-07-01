@@ -11,3 +11,4 @@ description: Methodology for analyzing a React Native repo's stack and conventio
 4. **Note lint/format tooling** and any custom rule configuration.
 5. **Hand the structured findings summary to `rn-architect`** — Navigation, State Management, Data Fetching, Testing, Monorepo/Workspace, Folder Structure, Lint/Format.
 6. **`rn-architect` proposes an approach** (screens, state/data, navigation, folder placement) citing the relevant `ARCH-*`/`NAV-*` standard IDs, grounded strictly in what was detected in steps 1–4.
+7. **Populate `templates/feature-analysis-template.md`** with the feature request, the findings summary, and the proposed approach, leaving `status: proposed` for a human to review and approve.
