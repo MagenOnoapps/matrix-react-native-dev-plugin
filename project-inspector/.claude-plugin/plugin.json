@@ -1,0 +1,9 @@
+{
+  "name": "project-inspector",
+  "version": "0.1.0",
+  "description": "Repo analysis → CLAUDE.md, AUDIT.md, docs/ knowledge base, and one-topic-at-a-time audit breakdowns. Produces the project context consumed by spac-writer and dev-design-start.",
+  "author": {
+    "name": "OnoApps",
+    "email": "magen@onoapps.com"
+  }
+}

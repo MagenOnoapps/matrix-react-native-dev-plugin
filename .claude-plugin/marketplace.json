@@ -13,10 +13,7 @@
     },
     {
       "name": "project-inspector",
-      "source": {
-        "source": "github",
-        "repo": "MagenOnoapps/OnoApps-ProjectInspector-DevPlugin"
-      },
+      "source": "./project-inspector",
       "description": "Repo analysis → CLAUDE.md, AUDIT.md, docs/ knowledge base, and one-topic-at-a-time audit breakdowns. Produces the project context consumed by spac-writer and dev-design-start."
     }
   ]
