@@ -10,6 +10,14 @@
       "name": "matrix-react-native-dev-plugin",
       "source": "./matrix-react-native-dev-plugin",
       "description": "React Native SDLC workflow: analyze, plan, implement, review, fix, QA handoff, release."
+    },
+    {
+      "name": "project-inspector",
+      "source": {
+        "source": "git",
+        "url": "https://github.com/MagenOnoapps/OnoApps-ProjectInspector-DevPlugin.git"
+      },
+      "description": "Repo analysis → CLAUDE.md, AUDIT.md, docs/ knowledge base, and one-topic-at-a-time audit breakdowns. Produces the project context consumed by spac-writer and dev-design-start."
     }
   ]
 }
