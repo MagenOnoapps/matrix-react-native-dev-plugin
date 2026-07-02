@@ -74,7 +74,7 @@ Approval gates: `audit-breakdown` processes one topic per run and stops; only th
 Local (for development of the plugin itself):
 
 ```bash
-claude --plugin-dir /Users/magenyadid/Development/OnoApps-ProjectInspector-DevPlugin
+claude --plugin-dir /path/to/onoapps-claude-plugins/project-inspector
 ```
 
 Team distribution: add this repo to the `onoapps-claude-plugins` marketplace, then:
